@@ -15,18 +15,18 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '28473056'))
 API_HASH = environ.get('API_HASH', '65dd11a5bed33d2b43c997e4cbc3dee2')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8045819879:AAG-Z205mYi0m6Fr1kYGdJv7c1P74ssUatA')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8155958680:AAFMQQDy0aFmTj0vfYsuLhKGJIeT5E-6nro')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8078089503').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/ronnie420") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002246863198'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/newmovis_request')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002279798502').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2115698950').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/studu01") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002265366902'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/khan32025')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002322636533').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://rinamurmu231:rinamurmu231@badsha.xp8bc.mongodb.net/?retryWrites=true&w=majority&appName=badsha")
-DATABASE_NAME = environ.get('DATABASE_NAME', "badsha")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jamessmithssp:jamessmithssp@cluster0.lemow.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -42,7 +42,7 @@ MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
